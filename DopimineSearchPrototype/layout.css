@@ -1,0 +1,160 @@
+h1{
+    text-decoration: underline;
+    text-decoration-color: rgb(	139,	242,	255);
+    font-size: 100px;
+    text-align: center;
+    color: rgb(255, 242, 242);
+    
+}
+button{
+    max-width: 500px;
+    max-height: 250px;
+}
+#header{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 242, 242);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.characterText{
+    width: 70%;
+    color: white;
+    font-size: 50px;
+}
+.characterImage{
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+}
+#Top3Buttons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+#twoPics{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    
+
+}
+#randomButton{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.characterButton{
+    height: 200px;
+    width: 450px;
+    border-width: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#sections{
+    background-color: rgb(69,192,241);
+    padding: 0px 20px 20px 40px;
+    margin: 10%;
+}
+#guraButton{
+
+    border-color: rgb(42,79,218);
+    background-color: rgb(45, 155, 240);
+
+    
+}
+
+#inaButton{
+    background-color: rgb(149, 16, 172 );
+    border-color: rgb(234,177,95);
+}
+
+
+#ameButton{
+    background-color: rgb(234,189,95);
+    border-color: rgb(255, 216, 136);
+}
+
+#kiaraButton{
+    background-color:	 rgb(255,147,0);
+    border-color:rgb(76,223,168);
+}
+
+#moriButton{
+    background-color: 	rgb(253,118,168);
+    border-color: 	black;
+}
+
+#randButton{
+    background-color: 	gray;
+    border-color: 	black;
+}
+
+body{
+    background-color: rgb(57,171,224);
+}
+#tagsRow{
+    display: flex;
+    justify-content: space-evenly;
+}
+#tagButton{
+    height: 100px;
+    width: 200px;
+    border-radius: 100px;
+    padding: 2%;
+    font-size: 130%;
+
+}
+#searchButton{
+    height: 60%;
+    width: 40%;
+    padding: 2%;
+    font-size: 130%;
+    width: fit-content;
+}
+#searchDiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* RESPONSIVE RULES */
+@media screen and (max-width:1000px){
+    #Top3Buttons{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+        flex-direction: column;
+    
+    }
+    #twoPics{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    
+    }
+    #randomButton{
+        margin: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        
+    
+    }
+    .characterButton{
+        margin: 20px;
+        margin-left: 2.5%;
+        margin-right: 20%;
+        height: 200px;
+        width: 100%;
+        border-width: 10px;
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+}
