@@ -29,17 +29,13 @@ button{
 }
 #Top3Buttons{
     display: flex;
-    justify-content: space-evenly;
     padding: 20px;
-
-}
-#twoPics{
-    display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 20px;
-    
+    margin-top: 20px;
 
 }
+
 #randomButton{
     margin: 20px;
     display: flex;
@@ -53,6 +49,8 @@ button{
     border-width: 10px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
 
 }
 
@@ -122,39 +120,3 @@ body{
     justify-content: space-evenly;
 }
 
-/* RESPONSIVE RULES */
-@media screen and (max-width:1000px){
-    #Top3Buttons{
-        display: flex;
-        justify-content: space-evenly;
-        padding: 20px;
-        flex-direction: column;
-    
-    }
-    #twoPics{
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-    
-    }
-    #randomButton{
-        margin: 20px;
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-        
-    
-    }
-    .characterButton{
-        margin: 20px;
-        margin-left: 2.5%;
-        margin-right: 20%;
-        height: 200px;
-        width: 100%;
-        border-width: 10px;
-        display: flex;
-        flex-direction: row;
-    
-    }
-
-}
