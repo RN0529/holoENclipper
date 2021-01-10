@@ -105,11 +105,12 @@ body{
 }
 #tagButton{
     height: 100px;
-    width: 200;
+    width: 200px;
     border-radius: 100px;
     padding: 2%;
     font-size: 20px;
     margin: 20px;
+    margin-right: 60px;
 
 }
 #searchButton{
@@ -156,8 +157,10 @@ iframe{
         width: 225px;
     }
     #tagButton{
-        height: fit-content;
-        width: fit-content;
+        height: 50px;
+        width: 100px;
+        font-size: 15px;
+        margin: 20px;
 
     
     }
