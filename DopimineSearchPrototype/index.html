@@ -5,7 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Dopamine Search Engine</title>
         <link rel="stylesheet" href="./layout.css">
-        
+
+        <script src="./search.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
     </head>
 
     <body>
@@ -90,9 +94,9 @@
 
         <section id="sections">
             <div id="searchDiv">
-                <button id="searchButton">Search</button>
+                <button id="searchButton" type="button" onclick="getVideo()">Search</button>
             </div>
-
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/UHknAe22MTo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
 
         <footer>
