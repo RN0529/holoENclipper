@@ -6,6 +6,7 @@ h1{
     color: rgb(255, 242, 242);
     
 }
+
 button{
     max-width: 500px;
     max-height: 250px;
@@ -20,6 +21,7 @@ button{
 .characterText{
     width: 70%;
     color: white;
+    height: max-content;
     font-size: 50px;
 }
 .characterImage{
@@ -27,7 +29,7 @@ button{
     height: 100%;
     object-fit: cover;
 }
-#Top3Buttons{
+#charb{
     display: flex;
     padding: 20px;
     flex-wrap: wrap;
@@ -43,23 +45,23 @@ button{
 
 }
 .characterButton{
+    
     height: 200px;
     width: 450px;
     border-width: 10px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     margin: 20px;
+
 
 }
 
 #sections{
     background-color: rgb(69,192,241);
-    padding: 0px 20px 20px 40px;
     margin: 10%;
+    min-height: fit-content;
 }
 #guraButton{
-
     border-color: rgb(42,79,218);
     background-color: rgb(45, 155, 240);
 
@@ -83,13 +85,13 @@ button{
 }
 
 #moriButton{
-    background-color: 	rgb(253,118,168);
-    border-color: 	black;
+    background-color: 	black;
+    border-color: 	rgb(253,118,168);
 }
 
 #randButton{
     background-color: 	gray;
-    border-color: 	black;
+    border-color: 	white;
 }
 
 body{
@@ -97,6 +99,7 @@ body{
 }
 #tagsRow{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 #tagButton{
@@ -104,7 +107,9 @@ body{
     width: 200px;
     border-radius: 100px;
     padding: 2%;
-    font-size: 130%;
+    font-size: 20px;
+    margin: 20px;
+    margin-right: 60px;
 
 }
 #searchButton{
@@ -113,9 +118,60 @@ body{
     padding: 2%;
     font-size: 130%;
     width: fit-content;
+    
 }
 #searchDiv{
     display: flex;
     justify-content: space-evenly;
+    flex-direction: row ;
+
 }
+#videoDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 400px;
+    padding-top: 20px;
+}
+
+iframe{
+    height: 100%;
+    width: 50%;
+}
+
+
+@media (max-width: 700px){ 
+    h1{
+        font-size: 50px;
+    }
+    #header{
+        font-size: 25px
+    }
+    .characterText{
+        font-size: 27px;
+        
+    }
+    .characterButton{
+        height: 100px;
+        width: 225px;
+    }
+    #tagButton{
+        height: 50px;
+        width: 100px;
+        font-size: 15px;
+        margin: 20px;
+
+    
+    }
+    iframe{
+        height: 100%;
+        width: 100%;
+        margin: 0%;
+    }
+    #videoDiv{
+        height: 200px;
+    }
+    
+}
+
 

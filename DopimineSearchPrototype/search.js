@@ -4,7 +4,9 @@ function getVideo() {
         url: 'https://www.googleapis.com/youtube/v3/search',
         data: {
             key: 'AIzaSyDNHAYWSCF8gGh0g-6lqahCljqt_fZRy-c',
-            q: "gura clip",
+            //'AIzaSyDNHAYWSCF8gGh0g-6lqahCljqt_fZRy-c' nelsons key
+
+            q: "hololive gura bottom clip ",
             part: 'snippet',
             maxResults: 1,
             type: 'video',
