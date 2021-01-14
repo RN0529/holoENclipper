@@ -6,7 +6,7 @@ function getVideo() {
             key: 'AIzaSyDNHAYWSCF8gGh0g-6lqahCljqt_fZRy-c',
             //'AIzaSyDNHAYWSCF8gGh0g-6lqahCljqt_fZRy-c' nelsons key
 
-            q: "hololive gura bottom clip ",
+            q: "hololive Amelia watson pain ",
             part: 'snippet',
             maxResults: 1,
             type: 'video',
