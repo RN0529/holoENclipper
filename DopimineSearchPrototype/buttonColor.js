@@ -1,15 +1,18 @@
-let btnGura = document.querySelector('#guraButton');
-let btnIna = document.querySelector('#inaButton');
-let btnAme = document.querySelector('#ameButton');
 
-var x = false;
-if(x){
-    btnGura.addEventListener('click', ()=> btnGura.style.backgroundColor='#FFFFFF');
-    x=false;
-}else{
-    btnGura.addEventListener('click', ()=> btnGura.style.backgroundColor='#000000');
-    x=true;
-}
+// select the button
+var  btnGura = document.querySelector('#guraButton');
+// add a click event listener
+btnGura.addEventListener('click', function () {
+  if (this.style.borderStyle === 'inset') {
+    this.style.background = '#2D9BF0';
+    $(this).css('border-style', 'outset');
+  }
+  else {
+    this.style.background = '#343B86';
+    $(this).css('border-style', 'inset');
+  }
+});
 
-btnIna.addEventListener('click', ()=> btnIna.style.backgroundColor='#000000');
-btnAme.addEventListener('click', ()=> btnAme.style.backgroundColor='#000000');
+
+var btnIna = document.querySelector('#inaButton');
+var btnAme = document.querySelector('#ameButton');
