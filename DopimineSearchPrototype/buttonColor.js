@@ -10,6 +10,10 @@ btnGura.addEventListener('click', function () {
   else {
     this.style.background = '#343B86';
     (this).style.borderStyle = 'inset';
+    //change random button to off
+    var btnRnd2 = document.querySelector('#randButton');
+    btnRnd2.style.background = 'gray';
+    (btnRnd2).style.borderStyle = 'outset';
   }
 });
 
@@ -22,6 +26,10 @@ btnIna.addEventListener('click', function () {
     else {
       this.style.background = '#590A68';
       (this).style.borderStyle = 'inset';
+      //change random button to off
+      var btnRnd2 = document.querySelector('#randButton');
+      btnRnd2.style.background = 'gray';
+      (btnRnd2).style.borderStyle = 'outset';
     }
   });
 
@@ -34,6 +42,10 @@ btnAme.addEventListener('click', function () {
     else {
       this.style.background = '#B9854B';
       (this).style.borderStyle = 'inset';
+      //change random button to off
+      var btnRnd2 = document.querySelector('#randButton');
+      btnRnd2.style.background = 'gray';
+      (btnRnd2).style.borderStyle = 'outset';
     }
 });
 
@@ -47,6 +59,10 @@ btnKiara.addEventListener('click', function () {
     else {
       this.style.background = '#AC6606';
       (this).style.borderStyle = 'inset';
+      //change random button to off
+      var btnRnd2 = document.querySelector('#randButton');
+      btnRnd2.style.background = 'gray';
+      (btnRnd2).style.borderStyle = 'outset';
     }
   });
 
@@ -54,7 +70,7 @@ btnKiara.addEventListener('click', function () {
 var btnCali = document.querySelector('#moriButton');
 btnCali.addEventListener('click', function () {
     if (this.style.borderStyle === 'inset') {
-      this.style.background = '#1A1A1A';
+      this.style.background = '#000000';
       (this).style.borderStyle = 'outset';
     }
     else {
@@ -78,7 +94,7 @@ btnRnd.addEventListener('click', function () {
       $(this).css('border-style', 'inset');
 
       var btnCali2 = document.querySelector('#moriButton');
-      btnCali2.style.background = '#1A1A1A';
+      btnCali2.style.background = '#000000';
       btnCali2.style.borderStyle = 'outset';
 
 
