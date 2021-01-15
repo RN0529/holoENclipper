@@ -37,3 +37,43 @@ btnAme.addEventListener('click', function () {
       $(this).css('border-style', 'inset');
     }
   });
+
+
+var btnKiara = document.querySelector('#kiaraButton');
+btnKiara.addEventListener('click', function () {
+    if (this.style.borderStyle === 'inset') {
+      this.style.background = '#FF9300';
+      $(this).css('border-style', 'outset');
+    }
+    else {
+      this.style.background = '#AC6606';
+      $(this).css('border-style', 'inset');
+    }
+  });
+
+
+var btnCali = document.querySelector('#moriButton');
+btnCali.addEventListener('click', function () {
+    if (this.style.borderStyle === 'inset') {
+      this.style.background = '#1A1A1A';
+      $(this).css('border-style', 'outset');
+    }
+    else {
+      this.style.background = '#2F1122';
+      $(this).css('border-style', 'inset');
+    }
+});
+
+var btnRnd = document.querySelector('#randButton');
+btnRnd.addEventListener('click', function () {
+    if (this.style.borderStyle === 'inset') {
+      this.style.background = 'gray';
+      $(this).css('border-style', 'outset');
+    }
+    else {
+      this.style.background = 'black';
+      $(this).css('border-style', 'inset');
+
+    }
+  });
+
