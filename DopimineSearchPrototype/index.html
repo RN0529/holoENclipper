@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="./layout.css">
 
         <script src="./search.js"></script>
+        <script src="./tagClick.js"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"
 integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
 crossorigin="anonymous"></script>
@@ -71,20 +72,20 @@ crossorigin="anonymous"></script>
         <section id="sections">
             <h1>Select Your Tags</h1>
             <div id="tagsRow">
-                <button id="tagButton" onclick="">Dame Dane</button>
-                <button id="tagButton">Pain</button>
-                <button id="tagButton">Wholesome</button>
-                <button id="tagButton">Monka</button>
-                <button id="tagButton">RIP Desk-kun</button>
-                <button id="tagButton">Sneeze</button>
-                <button id="tagButton">Bottom Left</button>
-                <button id="tagButton">Ara Ara</button>
+                <button class="tagButton" onclick="tagClick(this)" id="ddBtn">Dame Dane</button>
+                <button class="tagButton" onclick="tagClick(this)">Pain</button>
+                <button class="tagButton" onclick="tagClick(this)">Wholesome</button>
+                <button class="tagButton" onclick="tagClick(this)">Monka</button>
+                <button class="tagButton" onclick="tagClick(this)">RIP Desk-kun</button>
+                <button class="tagButton" onclick="tagClick(this)">Sneeze</button>
+                <button class="tagButton" onclick="tagClick(this)">Bottom Left</button>
+                <button class="tagButton" onclick="tagClick(this)">Ara Ara</button>
             </div>
             <br><br><br>
             
             
             <div id="tagsRow">
-                <button id="tagButton">Random</button>
+                <button class="tagButton" id="randTag" onclick="randOnClick(this)">Random</button>
             </div>
         </section>
         
