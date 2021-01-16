@@ -6,7 +6,13 @@ h1{
     color: rgb(255, 242, 242);
     
 }
-
+hr{
+    color: white;
+    background-color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    width:30%;
+}
 button{
     max-width: 500px;
     max-height: 250px;
@@ -52,6 +58,7 @@ button{
     display: flex;
     flex-direction: row;
     margin: 20px;
+    border-radius: 23px;
 
 
 }
@@ -96,31 +103,46 @@ button{
 
 body{
     background-color: rgb(57,171,224);
+    font-family: 'Caveat', cursive;
 }
 #tagsRow{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
 }
 .tagButton{
     height: 100px;
     width: 200px;
-
     border-width: 5px;
+    border-radius: 20px;
     padding: 2%;
     font-size: 20px;
-    margin: 20px;
-    margin-right: 60px;
+    margin: 40px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(69,192,241);
+    border-color: darkblue;
+
 
 }
 #searchButton{
+    margin: 20px;
     height: 60%;
     width: 40%;
     padding: 2%;
     font-size: 130%;
     width: fit-content;
-    
+    color: white;
+    background-color: rgb(69,192,241);
+    border-color: darkblue;
+    border-width: 5px;
+    border-radius: 20px;
 }
+#searchButton:hover{
+    background-color:  rgb(55,171,234);
+}
+
 #searchDiv{
     display: flex;
     justify-content: space-evenly;
