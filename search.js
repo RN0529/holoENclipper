@@ -71,8 +71,6 @@ function getVideo(searchString) {
         url: 'https://www.googleapis.com/youtube/v3/search',
         data: {
             key: 'AIzaSyDNHAYWSCF8gGh0g-6lqahCljqt_fZRy-c',
-            //'AIzaSyDNHAYWSCF8gGh0g-6lqahCljqt_fZRy-c' nelsons key
-
             q: searchString,
             part: 'snippet',
             maxResults: 1,
